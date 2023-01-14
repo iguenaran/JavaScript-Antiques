@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<title>Bootstrap Tutorial Sample Page</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+
+	</head>
+	
+	<body>
+	
+		<nav class="navbar navbar-expand-md">
+			<a class="navbar-brand" href="index.html">Berber Bazaar</a>
+			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="main-navigation">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<header class="page-header header container-fluid">
+			<div class="overlay"></div>
+			<div class="description">
+				<h1>Welcome to Berber Bazaar</h1>
+				<p>Established in 1976, Berber Bazaar has become, through love and hard work, one of the outstanding “antique” dealers of the art scene in Morocco</p>
+				<button class="btn btn-outline-secondary btn-lg">Tell Me More!</button>
+			</div>
+		</header>
+		
+		<div class="container features">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h3 class="feature-title">Lorem ipsum</h3>
+					<img src="images/store1.jpg" class="img-fluid">
+					<p>Berber Bazaar aim has always been to present a selected, unique wide range of engravings and other print media; jewelry, glass, gold, miniatures and needlework to a global clientele</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h3 class="feature-title">Lorem ipsum</h3>
+					<img src="images/store2.jpg" class="img-fluid">
+					<p>Our antiques originate from the customers understanding of esthetics and local culture</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">	
+					<h3 class="feature-title">Send an order request</h3>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Name" name="">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="Email Address" name="email">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="4"></textarea>
+					</div>
+					<input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+				</div>
+			</div> 
+		</div>
+		<footer class="page-footer">
+			<div class="container">
+				<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<h6 class="text-uppercase font-weight-bold">Contact</h6>
+					<p>N° 8, Avenue Allal Ben Abdellah, Rue 2، Fes 30000, Morocco
+					<br/>info@mywebsite.com
+					<br/>+212 661-355072 </p>
+				</div>
+			</div>
+			<div class="footer-copyright text-center">©2023 Berber Bazaar All rights reserved</div>
+		</footer>
+		
+		<script src="jquery-3.5.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="main.js"></script>
+    
+		<div id="demo-modal" class="modal fade">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<img class="rounded-circle mx-auto" src="images/email-icon.png" alt="modal image">
+						<button type="button" class="close" data-dismiss="modal" aria-label="close">
+							<span>x</span>
+						</button>
+					</div>
+					<div class="modal-body text-center">
+						<h4>Subscribe to our newsletter</h4>
+						<p>We look forward to keeping you updated with our latest news and offers</p>
+						<div class="input-group">
+							<input type="email" class="form-control" placeholder="Enter your email address" name="email">
+							<div class="input-group-append">
+								<input type="submit" class="btn" value="Subscribe">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	
+</html>
